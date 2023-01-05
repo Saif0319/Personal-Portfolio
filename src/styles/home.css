@@ -1,0 +1,158 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #8affca;
+    background-color: #202124;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 101, 32);
+    color: #DBFF57;
+  }
+
+  .about a {
+    text-decoration: none;
+    font-size: 0;
+    margin: 17px;
+  }
+
+  .github {
+    transition: 0.3s ease;
+  }
+
+  .github:hover {
+    color: black;
+    transition: 0.3s ease;
+  }
+
+  .linkedin {
+    transition: 0.3s ease;
+  }
+
+  .linkedin:hover {
+    color: #00A0DC;
+    transition: 0.3s ease;
+  }
+
+  .facebook {
+    transition: 0.3s ease;
+  }
+
+  .facebook:hover {
+    color: #2828ff;
+    transition: 0.3s ease;
+  }
+  
+  .gmail {
+    transition: 0.3s ease;
+  }
+  
+  .gmail:hover {
+    color: rgb(205, 23, 23);
+    transition: 0.3s ease;
+  }
+  
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #c8e95b;
+    height: 50px;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 28px;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+  
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    color: #ffffff;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
+
+  @media  (max-width: 1509px ) {
+    .about .prompt {
+      font-size: 30px;
+      width: 100%;
+    }
+  }
+
+  @media (max-width:800px) {
+    .about h2 {
+      font-size: 50px;
+    }
+
+    .about .prompt {
+      font-size: 20px;
+      width: 100%;
+    }
+  }
+
+
+  @media (max-width:460px) {
+    .about h2 {
+      font-size: 28px;
+    }
+
+    .about .prompt {
+      font-size: 15px;
+      width: 100%;
+    }
+
+    .prompt svg {
+      font-size: 40px;
+      margin: 5px;
+    }
+  }
