@@ -24,18 +24,13 @@ import "../styles/home.css"
         
         <ul className='list'>
           <li className='items'>
-            <h2>Front End</h2>
-            <span>ReactJS - React Native - Redux - HTML - CSS - SaSS - Bootstrap - Material UI - NPM </span>
-          </li>
-
-          <li className='items'>
-            <h2>Back End</h2>
-            <span>NodeJS - ExpressJS - MongoDB</span>
-          </li>
-
-          <li className='items'>
             <h2>Languages</h2>
-            <span>JavaScript - C# - Java - TypeScript Familiarity with Python </span>
+            <span>JavaScript - C# - Java - Python - TypeScript - PHP </span>
+          </li>
+
+          <li className='items'>
+            <h2>Technologies</h2>
+            <span>ReactJS - React Native - Redux - HTML - CSS - SaSS - Bootstrap - Material UI - NPM - NodeJS - ExpressJS - MongoDB </span>
           </li>
         </ul>
       </div>
