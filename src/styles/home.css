@@ -5,6 +5,9 @@
     color: #8affca;
     background-color: #202124;
   }
+
+
+  /* ABOUT */
   
   .about {
     width: 100%;
@@ -15,7 +18,43 @@
     align-items: center;
     text-align: center;
     background-color: rgb(0, 101, 32);
+    background-image: url("../assets/JSCode.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(rgba(78, 70, 59, 0));
+    overflow-x: hidden;
     color: #DBFF57;
+  }
+
+
+  .about h2 {
+    z-index: 99;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
+
+  .splash {
+    position: absolute;
+    width: 33%;
+    top: 31%;
+  }
+
+  .splash2 {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 30%;
+    margin-top: 50px;
+  }
+
+
+  .prompt {
+    z-index: 1;
+    margin-top: 70px;
   }
 
   .about a {
@@ -23,6 +62,8 @@
     font-size: 0;
     margin: 17px;
   }
+
+  /* Links */
 
   .github {
     transition: 0.3s ease;
@@ -76,6 +117,8 @@
     margin: 5px;
     color: white;
   }
+
+  /* Skills */
   
   .skills {
     font-size: 35px;
@@ -84,6 +127,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
   
   .skills h1 {
@@ -98,6 +142,7 @@
   .list span {
     font-size: 20px;
   }
+
   
   @media only screen and (max-width: 600px) {
     .about h2 {
